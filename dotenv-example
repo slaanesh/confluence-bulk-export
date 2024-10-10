@@ -1,0 +1,3 @@
+CONFLUENCE_API_TOKEN=<my API token>
+CONFLUENCE_USERNAME=myemail@example.com
+CONFLUENCE_URL=https://<instancename>.atlassian.net
