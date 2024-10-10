@@ -8,12 +8,12 @@
 ## Usage
 Run it this way:
 ```
-pipenv run export.py 'CQL search query' <output directory>
+pipenv run python3 export.py 'CQL search query' <output directory>
 ```
 
 For example, to save all the pages with the label `label 1` but not the label `label 2` or `label 3`:
 ```
-pipenv run export.py 'label="label 1" AND NOT (label = "label 2" OR label = "label 3")' ./pdf
+pipenv run python3 export.py 'label="label 1" AND NOT (label = "label 2" OR label = "label 3")' ./pdf
 ```
 
 This will download everything under the `./pdf` folder.
